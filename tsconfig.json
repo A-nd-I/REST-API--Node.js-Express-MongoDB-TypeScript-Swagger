@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6", // tells the TypeScript compiler to compile the TypeScript code to ECMAScript 2015 (ES6) JavaScript syntax                 
+    "module": "commonjs",  //tells the TypeScript compiler to use the commonjs module system
+    "sourceMap": true, //allows you to debug your original TypeScript code directly in a debugger                        
+    "outDir": "./dist", //specifies that the compiled JavaScript files should be output to the dist directory                   
+    "strict": true, //specify to use the strict mode                          
+    "esModuleInterop": true, // ecmascript-module-interoperability
+    "moduleResolution": "node", // it determines how the compiler locates modules during the compilation process.
+    "baseUrl": "./src", // allows you to specify a base directory for resolving non-relative module imports.                    
+    "forceConsistentCasingInFileNames": true  // ensures that the case sensitivity of import paths is consistent with the actual file names on the disk
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,1 +1,1 @@
-# REST-API--Node.js-Express-MongoDB-TypeScript-Swagger
+# Basic REST API with Node.js, Express, TypeScript, MongoDB, and Jest
